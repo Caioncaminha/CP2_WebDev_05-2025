@@ -1,8 +1,8 @@
 # Checkpoint 2 — WebDev
 
-Este repositório contém a implementação de três desafios propostos para o **Checkpoint 2** da disciplina de Desenvolvimento Web. Os exercícios abordam conceitos importantes como `sessionStorage`, manipulação de tempo, arrays, objetos, lógica condicional e manipulação do DOM com JavaScript.
+Este repositório contém a implementação de três desafios propostos para o **Checkpoint 2** da disciplina de Desenvolvimento Web.
 
----
+Os exercícios abordam conceitos importantes como `sessionStorage`, manipulação de tempo, arrays, objetos, lógica condicional, manipulação do DOM com JavaScript, dropdown e Fibonacci.
 
 ## 🕒 Contador de Tempo de Sessão com Feedback
 
@@ -21,8 +21,6 @@ Página web que inicia a contagem de tempo automaticamente ao ser aberta. O temp
 - HTML
 - CSS (mensagem sutil estilizada)
 - JavaScript (manipulação de tempo e sessionStorage)
-
----
 
 ## 🧩 Enigma da Sequência Misteriosa
 
@@ -91,3 +89,11 @@ Página onde o usuário pode digitar nomes de cores em inglês. Cada nova cor di
 │ ├── style.css
 │ └── script.js
 └── README.md
+
+---
+
+## Integrantes
+
+Caio Nascimento Caminha - RM564789
+
+Lucas Henrique Viana Estevam Sena - RM566246
