@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #08705d, #acb6e5);
+    color: #333;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Estilização para as opções do datalist */
+input::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+datalist {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+option {
+    padding: 8px;
+    cursor: pointer;
+}
+
+option:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px 0 0 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+li {
+    padding: 15px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.color-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.color-option {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.color-option:hover {
+    background-color: #f0f0f0;
+}
